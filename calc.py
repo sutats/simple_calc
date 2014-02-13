@@ -55,7 +55,7 @@ while keepProgramRunning:
 		a = raw_input("A: ")
 		b = raw_input("B: ")
 		while b == "0":
-			return "Invalid Number!"
+			print "Invalid Number!"
 			b = raw_input("B: ")
 		print float(divide(a, b))
 	elif choice == "5":
